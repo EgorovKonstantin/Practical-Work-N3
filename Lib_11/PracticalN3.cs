@@ -1,5 +1,6 @@
 
 using System.Runtime.InteropServices;
+using System.Windows.Automation;
 
 namespace Lib_11
 {
@@ -29,6 +30,10 @@ namespace Lib_11
                 if (arrayMinElem[i] > max) max = arrayMinElem[i];
             }
             return max;
+        }
+        public static void PrintHello()
+        {
+            Console.WriteLine("Hello");
         }
     }
 
